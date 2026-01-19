@@ -1,0 +1,14 @@
+.filter-heading{
+    font-family:'Roboto';
+    font-weight:500;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.filter-list{
+    margin:0px;
+}
+
+.filter-container {
+    min-width:100%;
+}

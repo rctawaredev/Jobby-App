@@ -1,0 +1,122 @@
+/* ---------- JOB CARD ---------- */
+.job-card {
+  background-color: #202020;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 500px; /* mobile centering */
+}
+
+/* ---------- LINK ---------- */
+.nav-item {
+  text-decoration: none;
+  width: 100%;
+}
+
+/* ---------- LOGO & TITLE ---------- */
+.logo-title-job-card-cont {
+  display: flex;
+  align-items: flex-start;
+}
+
+.job-logo {
+  height: 70px;
+  margin-top: 5px;
+}
+
+.title-rating-cont {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+/* ---------- TITLE & RATING ---------- */
+.job-card-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.rating-star-cont {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.star-icon-card {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+.job-card-rating {
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+/* ---------- LOCATION & TYPE ---------- */
+.lipc-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 12px 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.location-employment-cont {
+  display: flex;
+}
+
+.flex-cont {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.type-icon {
+  margin-right: 6px;
+  color: #ffffff;
+}
+
+.icon-label {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-weight: 300;
+}
+
+/* ---------- PACKAGE ---------- */
+.package {
+  font-family: "Roboto";
+  color: #ffffff;
+}
+
+/* ---------- DESCRIPTION ---------- */
+.Description-head {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.Description-para {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+/* ---------- DESKTOP VIEW ---------- */
+@media screen and (min-width: 768px) {
+  .job-card {
+    max-width: 90%;
+  }
+}
