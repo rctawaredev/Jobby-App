@@ -3,7 +3,7 @@ import Login from "./components/Login";
 import Home from "./components/Home";
 import Jobs from "./components/Jobs";
 import JobDetails from "./components/JobDetails";
-import NotFound from './components/NotFound';
+import NotFound from "./components/NotFound";
 import { Routes, Route } from "react-router-dom";
 import ProtectedRoute from "./components/ProtectedRoute";
 
@@ -74,17 +74,8 @@ const App = () => {
         }
       />
 
-      <Route
-        path={"*"}
-        element={
-            <NotFound/>
-        }
-      />
-
+      <Route path={"*"} element={<NotFound />} />
     </Routes>
-    
-
-    
   );
 };
 
