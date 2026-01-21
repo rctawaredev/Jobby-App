@@ -184,7 +184,7 @@ const Jobs = () => {
       case apiStatusConstants.inProgress:
         return (
           <div className="sweet-loading">
-            <BeatLoader size={30} color="white" />
+            <BeatLoader size={25} color="white" />
           </div>
         );
       case apiStatusConstants.success:
