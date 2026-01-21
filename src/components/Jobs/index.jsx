@@ -21,7 +21,7 @@ const Jobs = () => {
   const [profileDetails, setProfileDetails] = useState({});
   const [jobDetails, setJobDetails] = useState([]);
 
-  // 🔹 FILTER & SEARCH STATES
+
   const [employmentTypes, setEmploymentTypes] = useState([]);
   const [salaryRange, setSalaryRange] = useState("");
   const [searchInput, setSearchInput] = useState("");
@@ -33,7 +33,6 @@ const Jobs = () => {
     apiStatusConstants.initial,
   );
 
-  /* ---------------- PROFILE API ---------------- */
 
   const getProfileDetails = async () => {
     setProfileApiStatus(apiStatusConstants.inProgress);
@@ -127,7 +126,7 @@ const Jobs = () => {
     getJobDetails();
   }, [employmentTypes, salaryRange]);
 
-  /* ---------------- RENDER HELPERS ---------------- */
+
 
   const renderSearchBar = () => (
     <div className="search-bar">

@@ -13,7 +13,7 @@ const Home =()=> {
                         Millions of people are searching for jobs, salary information, company
                         reviews. Find the job that fits your abilities and potential.
                     </p>
-                    <button className="find-jobs-button" type="button">
+                    <button className="find-jobs-button" type="button" onClick={()=> navigate('/jobs')}>
                         Find Jobs
                     </button>
 
